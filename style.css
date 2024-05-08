@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .header-footer-background {
@@ -26,6 +27,7 @@ body {
 .header-links {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 ul {
@@ -43,7 +45,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-evenly;
-    padding: 150px;
+    padding: 125px;
 }
 
 .hero-left {
@@ -66,12 +68,13 @@ a {
     border: none;
     border-radius: 4px;
     color: #F9FAF8;
-    padding: 8px 40px;
+    padding: 8px 30px;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 #placeholder-image {
-    height: 150px;
+    height: 125px;
     width: 400px;
     display: flex;
     justify-content: center;
@@ -143,4 +146,48 @@ a {
     align-self: flex-end;
     font-weight: bold;
     font-size: 18px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 900px;
+    padding: 50px;
+}
+
+.call-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-container button {
+    background-color: #3882F6;
+    border: 2px solid;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 5px 30px 5px 30px;
+    border-radius: 7px;
+    align-self: center;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    color: #F9FAF8;
+
 }
